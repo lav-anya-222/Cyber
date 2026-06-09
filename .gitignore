@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local databases
+database/*.db
+!database/.gitkeep
+
+# Exported reports
+exports/*.csv
+exports/*.json
+!exports/.gitkeep
+
+# IDE files
+.vscode/
+.idea/

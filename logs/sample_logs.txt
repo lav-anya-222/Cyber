@@ -1,0 +1,102 @@
+[2026-06-08 09:15:22] [INFO] IP: 192.168.1.100 - USER: admin - MSG: Login success
+[2026-06-08 09:30:11] [INFO] IP: 192.168.1.105 - USER: john_doe - MSG: Login success
+[2026-06-08 10:05:40] [WARNING] IP: 203.0.113.5 - USER: root - MSG: Login failed - Invalid password
+[2026-06-08 10:05:45] [WARNING] IP: 203.0.113.5 - USER: admin - MSG: Login failed - Invalid password
+[2026-06-08 11:12:03] [INFO] IP: 192.168.1.100 - USER: admin - MSG: Logout success
+[2026-06-08 12:20:18] [WARNING] IP: 198.51.100.12 - USER: support - MSG: Login failed - Username not found
+[2026-06-08 13:45:22] [INFO] IP: 192.168.1.102 - USER: alice_w - MSG: Login success
+[2026-06-08 14:02:11] [CRITICAL] IP: 185.190.140.2 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in URI parameter: id=1' OR '1'='1
+[2026-06-08 15:30:45] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Account locked
+[2026-06-08 20:54:59] [CRITICAL] IP: 198.51.100.12 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: '; DROP TABLE logs; --
+[2026-06-08 20:55:01] [CRITICAL] IP: 198.51.100.12 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:55:03] [WARNING] IP: 91.240.118.4 - USER: john_doe - MSG: Login failed - Incorrect password for user: john_doe
+[2026-06-08 20:55:05] [INFO] IP: 192.168.1.105 - USER: bob_smith - MSG: Login success - Session established
+[2026-06-08 20:55:07] [WARNING] IP: 198.51.100.12 - USER: admin - MSG: Login failed - Incorrect password for user: admin
+[2026-06-08 20:55:10] [INFO] IP: 10.0.0.15 - USER: john_doe - MSG: Login success - Session established
+[2026-06-08 20:55:13] [INFO] IP: 192.168.1.102 - USER: admin - MSG: Logout success - Session terminated
+[2026-06-08 20:55:15] [WARNING] IP: 91.240.118.4 - USER: bob_smith - MSG: Login failed - Incorrect password for user: bob_smith
+[2026-06-08 20:55:18] [WARNING] IP: 203.0.113.5 - USER: admin - MSG: Login failed - Incorrect password for user: admin
+[2026-06-08 20:55:20] [INFO] IP: 10.0.0.15 - USER: admin - MSG: Logout success - Session terminated
+[2026-06-08 20:55:22] [WARNING] IP: 45.83.67.11 - USER: root - MSG: Login failed - Brute force sequence #1 for user: root
+[2026-06-08 20:55:23] [WARNING] IP: 45.83.67.11 - USER: root - MSG: Login failed - Brute force sequence #2 for user: root
+[2026-06-08 20:55:23] [WARNING] IP: 45.83.67.11 - USER: root - MSG: Login failed - Brute force sequence #3 for user: root
+[2026-06-08 20:55:23] [WARNING] IP: 45.83.67.11 - USER: root - MSG: Login failed - Brute force sequence #4 for user: root
+[2026-06-08 20:55:23] [WARNING] IP: 45.83.67.11 - USER: root - MSG: Login failed - Brute force sequence #5 for user: root
+[2026-06-08 20:55:26] [INFO] IP: 10.0.0.15 - USER: alice_w - MSG: Login success - Session established
+[2026-06-08 20:55:28] [WARNING] IP: 45.83.67.11 - USER: admin - MSG: Login failed - Incorrect password for user: admin
+[2026-06-08 20:55:30] [CRITICAL] IP: 203.0.113.5 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:55:32] [WARNING] IP: 91.240.118.4 - USER: guest - MSG: Login failed - Access denied to privileged account: guest
+[2026-06-08 20:55:33] [WARNING] IP: 203.0.113.5 - USER: alice_w - MSG: Login failed - Incorrect password for user: alice_w
+[2026-06-08 20:55:36] [WARNING] IP: 198.51.100.12 - USER: admin - MSG: Login failed - Access denied to privileged account: admin
+[2026-06-08 20:55:39] [WARNING] IP: 91.240.118.4 - USER: john_doe - MSG: Login failed - Incorrect password for user: john_doe
+[2026-06-08 20:55:40] [INFO] IP: 192.168.1.100 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-08 20:55:43] [CRITICAL] IP: 203.0.113.5 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: '; DROP TABLE logs; --
+[2026-06-08 20:55:46] [INFO] IP: 192.168.1.102 - USER: admin - MSG: Logout success - Session terminated
+[2026-06-08 20:55:48] [INFO] IP: 192.168.1.102 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-08 20:55:51] [INFO] IP: 10.0.0.15 - USER: bob_smith - MSG: Login success - Session established
+[2026-06-08 20:55:52] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #1 for user: oracle
+[2026-06-08 20:55:53] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #2 for user: oracle
+[2026-06-08 20:55:53] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #3 for user: oracle
+[2026-06-08 20:55:53] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #4 for user: oracle
+[2026-06-08 20:55:54] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #5 for user: oracle
+[2026-06-08 20:55:56] [WARNING] IP: 185.190.140.2 - USER: bob_smith - MSG: Login failed - Incorrect password for user: bob_smith
+[2026-06-08 20:55:58] [INFO] IP: 192.168.1.102 - USER: admin - MSG: Login success - Session established
+[2026-06-08 20:56:01] [CRITICAL] IP: 185.190.140.2 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:56:03] [WARNING] IP: 203.0.113.5 - USER: support - MSG: Login failed - Access denied to privileged account: support
+[2026-06-08 20:56:06] [INFO] IP: 10.0.0.15 - USER: bob_smith - MSG: Login success - Session established
+[2026-06-08 20:56:08] [WARNING] IP: 185.190.140.2 - USER: oracle - MSG: Login failed - Access denied to privileged account: oracle
+[2026-06-08 20:56:09] [INFO] IP: 192.168.1.105 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-08 20:56:12] [WARNING] IP: 203.0.113.5 - USER: john_doe - MSG: Login failed - Incorrect password for user: john_doe
+[2026-06-08 20:56:14] [INFO] IP: 192.168.1.102 - USER: admin - MSG: Login success - Session established
+[2026-06-08 20:56:15] [WARNING] IP: 198.51.100.12 - USER: admin - MSG: Login failed - Access denied to privileged account: admin
+[2026-06-08 20:56:17] [WARNING] IP: 185.190.140.2 - USER: john_doe - MSG: Login failed - Incorrect password for user: john_doe
+[2026-06-08 20:56:20] [INFO] IP: 192.168.1.102 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-08 20:56:22] [WARNING] IP: 185.190.140.2 - USER: database - MSG: Login failed - Access denied to privileged account: database
+[2026-06-08 20:56:24] [INFO] IP: 192.168.1.100 - USER: john_doe - MSG: Logout success - Session terminated
+[2026-06-08 20:56:25] [CRITICAL] IP: 91.240.118.4 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:28] [INFO] IP: 192.168.1.105 - USER: john_doe - MSG: Login success - Session established
+[2026-06-08 20:56:30] [INFO] IP: 192.168.1.100 - USER: alice_w - MSG: Logout success - Session terminated
+[2026-06-08 20:56:32] [CRITICAL] IP: 185.190.140.2 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:34] [WARNING] IP: 45.83.67.11 - USER: database - MSG: Login failed - Access denied to privileged account: database
+[2026-06-08 20:56:36] [CRITICAL] IP: 185.190.140.2 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:39] [INFO] IP: 192.168.1.100 - USER: bob_smith - MSG: Login success - Session established
+[2026-06-08 20:56:41] [INFO] IP: 192.168.1.100 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-08 20:56:42] [CRITICAL] IP: 203.0.113.5 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:45] [CRITICAL] IP: 198.51.100.12 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:48] [WARNING] IP: 203.0.113.5 - USER: support - MSG: Login failed - Access denied to privileged account: support
+[2026-06-08 20:56:50] [INFO] IP: 192.168.1.105 - USER: alice_w - MSG: Login success - Session established
+[2026-06-08 20:56:51] [CRITICAL] IP: 45.83.67.11 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:53] [WARNING] IP: 198.51.100.12 - USER: root - MSG: Login failed - Access denied to privileged account: root
+[2026-06-08 20:56:55] [CRITICAL] IP: 198.51.100.12 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' UNION SELECT username, password FROM users--
+[2026-06-08 20:56:58] [INFO] IP: 10.0.0.15 - USER: john_doe - MSG: Login success - Session established
+[2026-06-08 20:57:00] [INFO] IP: 10.0.0.15 - USER: admin - MSG: Login success - Session established
+[2026-06-08 20:57:02] [WARNING] IP: 198.51.100.12 - USER: oracle - MSG: Login failed - Access denied to privileged account: oracle
+[2026-06-08 20:57:05] [CRITICAL] IP: 203.0.113.5 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:57:08] [CRITICAL] IP: 203.0.113.5 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:57:10] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #1 for user: oracle
+[2026-06-08 20:57:11] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #2 for user: oracle
+[2026-06-08 20:57:11] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #3 for user: oracle
+[2026-06-08 20:57:11] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #4 for user: oracle
+[2026-06-08 20:57:11] [WARNING] IP: 45.83.67.11 - USER: oracle - MSG: Login failed - Brute force sequence #5 for user: oracle
+[2026-06-08 20:57:15] [CRITICAL] IP: 185.190.140.2 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: admin' --
+[2026-06-08 20:57:16] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Brute force sequence #1 for user: guest
+[2026-06-08 20:57:17] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Brute force sequence #2 for user: guest
+[2026-06-08 20:57:17] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Brute force sequence #3 for user: guest
+[2026-06-08 20:57:17] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Brute force sequence #4 for user: guest
+[2026-06-08 20:57:17] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Brute force sequence #5 for user: guest
+[2026-06-08 20:57:21] [WARNING] IP: 185.190.140.2 - USER: guest - MSG: Login failed - Access denied to privileged account: guest
+[2026-06-09 15:38:35] [INFO] IP: 192.168.1.105 - USER: john_doe - MSG: Logout success - Session terminated
+[2026-06-09 15:38:37] [CRITICAL] IP: 198.51.100.12 - USER: None - MSG: Web Application Firewall Block: SQL Injection signature detected in query parameters: 1' OR '1'='1
+[2026-06-09 15:38:39] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Access denied to privileged account: database
+[2026-06-09 15:38:41] [INFO] IP: 192.168.1.100 - USER: bob_smith - MSG: Logout success - Session terminated
+[2026-06-09 15:38:44] [INFO] IP: 10.0.0.15 - USER: john_doe - MSG: Login success - Session established
+[2026-06-09 15:38:46] [WARNING] IP: 91.240.118.4 - USER: support - MSG: Login failed - Brute force sequence #1 for user: support
+[2026-06-09 15:38:46] [WARNING] IP: 91.240.118.4 - USER: support - MSG: Login failed - Brute force sequence #2 for user: support
+[2026-06-09 15:38:46] [WARNING] IP: 91.240.118.4 - USER: support - MSG: Login failed - Brute force sequence #3 for user: support
+[2026-06-09 15:38:47] [WARNING] IP: 91.240.118.4 - USER: support - MSG: Login failed - Brute force sequence #4 for user: support
+[2026-06-09 15:38:47] [WARNING] IP: 91.240.118.4 - USER: support - MSG: Login failed - Brute force sequence #5 for user: support
+[2026-06-09 15:38:50] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Brute force sequence #1 for user: database
+[2026-06-09 15:38:50] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Brute force sequence #2 for user: database
+[2026-06-09 15:38:51] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Brute force sequence #3 for user: database
+[2026-06-09 15:38:51] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Brute force sequence #4 for user: database
+[2026-06-09 15:38:51] [WARNING] IP: 198.51.100.12 - USER: database - MSG: Login failed - Brute force sequence #5 for user: database
