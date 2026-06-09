@@ -51,40 +51,6 @@ Brute-force attack detection is handled using an **in-memory sliding window algo
 
 ---
 
-## 🔄 Project Flow & Lifecycle
-
-```mermaid
-graph TD
-    A[Start main.py] --> B[Seed Default Admin & Init DB]
-    B --> C[Admin Authentication Prompt]
-    C -- Success --> D[Synchronize Historical Logs]
-    C -- 3 Failures --> E[Lock Console & Exit]
-    D --> F[Show Main Dashboard & Menu]
-    F --> G{User Choice}
-    G -- 1. Start Monitoring --> H[Launch Live Tail & Background Traffic Generator]
-    H -- Ctrl+C --> F
-    G -- 2. View Alerts --> I[Paginated Alerts Table]
-    I --> F
-    G -- 3. View Suspicious IPs --> J[IP Attack Counter & Block Status]
-    J --> F
-    G -- 4. Search Logs --> K[Filter Logs/Alerts by Term]
-    K --> F
-    G -- 5. Export Reports --> L[Save Tables to CSV inside exports/]
-    L --> F
-    G -- 6. Exit --> M[Power Down & Close DB]
-```
-
-1. **Initialize**: `main.py` checks for folder structures and runs database setups.
-2. **Authenticate**: Prompts for password (hidden dynamically). The default is `admin` / `admin123` (stored hashed with SHA-256 in SQLite).
-3. **Dashboard Sync**: On successful login, the detector runs a quick pass on the log file to sync previous events into the database.
-4. **Dashboard & Menu**: Shows overall stats (Active Attackers, Total Alerts, Severity Count) in a colored panel and presents options.
-5. **Real-Time Monitoring**:
-   - Spawns a background thread that periodically writes simulated cyber events (successful logins, port scans, SQL injections, brute-force bursts) to the log file.
-   - The main thread tails the log file, parses entries via regex, runs them through the threat detection engine, updates the SQLite database, and prints color-coded alerts to the terminal instantly.
-   - Gracefully stops via `Ctrl+C` interrupt.
-
----
-
 ## 🛠️ How to Run in VS Code (Windows)
 
 Follow these steps to run the project in VS Code:
